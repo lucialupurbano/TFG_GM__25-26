@@ -1,0 +1,333 @@
+*{padding:0;margin:0;box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6,p,a,div,button,footer,input,strong,i,ul,li,ol
+{font-family:Bahnschrift,'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;}
+body{background-color:#1a1b2e;}
+a{color:#100E17;font-style:italic;text-decoration:none;transition:color 0.2s;}
+a:hover{color:#555555}
+img{border:#e0e0e0 1px solid;margin:0.5%;max-width:100%;height:auto;border-radius:4px;}
+h1,h2,h3,h4,h5,h6{font-weight:bolder;}
+p,a{font-weight:lighter;}
+
+
+
+
+
+/* PC */
+@media screen and (min-width:769px)
+{
+    #logo
+        {
+            display:flex;
+            align-items:center;
+            gap:10px;
+            height:60px;
+            padding:0 1%;
+        }
+
+    .ico
+        {
+            display:flex;
+            height:45px;
+        }
+
+    .ico img
+        {
+            height:100%;
+            width:auto;
+            border:none;
+            border-radius:0;
+        }
+
+    .apunte
+        {
+            font-size:22px;
+            font-weight:bold;
+            white-space:nowrap;
+        }
+
+    .decoracion
+        {
+            border:none;
+            height:1px;
+            background:linear-gradient(to right,transparent,#888888,transparent);
+            margin:1% 0;
+        }
+
+    nav
+        {
+            position:fixed;
+            top:0;
+            left:0;
+            display:flex;
+            width:100%;
+            height:70px;
+            padding:0 2%;
+            background-color:#f1eff5;
+            align-items:center;
+            z-index:100;
+            box-shadow:0 2px 12px rgba(0,0,0,0.15);
+            border-bottom:2px solid #d0cdd8;
+        }
+
+    #hea
+        {
+            display:flex;
+            flex:1;
+            justify-content:flex-end;
+        }
+
+    #hea ul
+        {
+            list-style:none;
+            display:flex;
+            align-items:center;
+            height:100%;
+            margin:0;
+            padding:0;
+        }
+
+    #hea ul li
+        {
+            position:relative;
+            height:100%;
+            display:flex;
+            align-items:center;
+        }
+
+    #hea ul li a
+        {
+            display:block;
+            padding:0.4rem 1rem;
+            background-color:#f1eff5;
+            transition:background-color 0.2s;
+            border-radius:6px;
+            white-space:nowrap;
+            font-size:15px;
+        }
+
+    #hea ul li a:hover
+        {
+            background-color:#e0dde8;
+        }
+
+    #hea ul li .asignatura
+        {
+            display:flex;
+            align-items:center;
+            height:100%;
+            border-radius:8px;
+        }
+
+    #hea ul li ul
+        {
+            position:absolute;
+            top:calc(100% + 8px);
+            left:0;
+            margin:0;
+            padding:8px 0;
+            background-color:#ffffff;
+            border:1px solid #d0cdd8;
+            border-radius:10px;
+            box-shadow:0 12px 35px rgba(0,0,0,0.15);
+            min-width:200px;
+            z-index:200;
+            opacity:0;
+            visibility:hidden;
+            transform:translateY(-6px);
+            transition:opacity 0.25s,visibility 0.25s,transform 0.25s;
+            display:flex;
+            flex-direction:column;
+        }
+
+    #hea ul li:hover ul
+        {
+            opacity:1;
+            visibility:visible;
+            transform:translateY(0);
+        }
+        
+    #hea ul li ul li
+        {
+            height:auto;
+            width:100%;
+            display:block;
+            margin:0;
+        }
+
+    #hea ul li ul li a
+        {
+            display:block;
+            width:100%;
+            padding:8px 18px;
+            background-color:#ffffff;
+            font-size:13px;
+            white-space:nowrap;
+            box-sizing:border-box;
+            text-align:left;
+            border-radius:0;
+            text-transform:uppercase;
+            letter-spacing:0.06em;
+            color:#555555;
+        }
+
+    #hea ul li ul li:first-child a
+        {
+            border-radius:8px 8px 0 0;
+        }
+
+    #hea ul li ul li:last-child a
+        {
+            border-radius:0 0 8px 8px;
+        }
+
+    #hea ul li ul li a:hover
+        {
+            background-color:#f5f4f8;
+            color:#100E17;
+        }
+
+    footer
+        {
+            width:100%;
+            padding:0.8%;
+            background-color:#2a2b40;
+            align-items:center;
+            text-align:center;
+            font-style:italic;
+            color:#cccccc;
+            margin-top:1%;
+        }
+
+    footer p
+        {
+            text-align:center
+        }
+}
+
+
+
+
+
+/* MOVIL */
+@media screen and (max-width:768px){
+    #logo
+        {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:8px;padding:2%;
+            height:auto;
+        }
+
+    .ico
+        {
+            display:flex;
+            height:35px;
+        }
+
+    .ico img
+        {
+            height:100%;
+            width:auto;
+            border:none;
+            border-radius:0;
+        }
+
+    .apunte
+        {
+            font-size:16px;
+            font-weight:bold;
+        }
+
+    #hea
+        {
+            display:flex;
+            width:100%;
+            justify-content:center;
+        }
+
+    .asignatura
+        {
+            width:auto;
+            height:auto;
+            text-align:center;
+            align-items:center;
+        }
+
+    .decoracion
+        {
+            border:none;
+            height:1px;
+            background:linear-gradient(to right,transparent,#888888,transparent);
+            margin:2% 0;
+        }
+
+    nav
+        {
+            display:flex;
+            flex-direction:column;
+            width:100%;
+            height:auto;
+            padding:1%;
+            background-color:#f1eff5;
+            align-items:center;
+            box-shadow:0 2px 8px rgba(0,0,0,0.15);
+            border-bottom:2px solid #d0cdd8;
+        }
+        
+    nav section ul
+        {
+            list-style:none;
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            margin:0;padding:0;
+            justify-content:center;
+        }
+
+    nav section ul li a
+        {
+            display:block;
+            padding:0.3rem 0.6rem;
+            background-color:#f1eff5;
+            font-size:13px;
+            border-radius:4px;
+        }
+
+    nav section ul li ul
+        {
+            display:none;
+        }
+
+    footer
+        {
+            width:100%;
+            height:auto;
+            padding:1%;
+            background-color:#2a2b40;
+            text-align:center;
+            font-style:italic;
+            font-size:14px;
+            color:#cccccc;
+        }
+
+    footer p
+        {
+            text-align:center;
+        }
+}
+
+.contenido a,.contenido1 a,.contenido2 a
+    {
+        transition:none;
+    }
+
+.contenido a,.contenido1 a,.contenido2 a
+    {
+        color:inherit;
+    }
+
+.contenido a:hover,.contenido1 a:hover,.contenido2 a:hover
+    {
+        color:inherit;
+    }

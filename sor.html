@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="base.css">
+		<link rel="stylesheet" href="sor.css">
+		<title>Sistemas Operativos en Red</title>
+	</head>
+	
+	<body>
+		<nav>
+			<div id="logo">
+				<div class="ico"><img src="./Imagenes/ico.png"></div>
+				<div class="apunte">Apuntes 2º SMR</div>
+			</div>
+			
+			<section id="hea">
+				<ul>
+					<!--INICIO-->
+					<li>
+						<article class="asignatura">
+							<a href="index.html">Inicio</a>
+						</article>
+					</li>
+
+					<!--APLICACIONES WEB-->
+					<li> 
+						<article class="asignatura">
+							<a href="aw.html">Aplicaciones web</a>
+							<ul>
+								<li><a href="aw.html">HTML</a></li>
+								<li><a href="aw.html">CSS</a></li>
+							</ul>
+						</article>
+					</li>
+
+					<!--DIGITALIZACIÓN-->
+					<li> 
+						<article class="asignatura">
+							<a href="dasp.html">Digitalización</a>
+							<ul>
+								<li><a href="dasp.html">Tema 1</a></li>
+								<li><a href="dasp.html">Tema 2</a></li>
+								<li><a href="dasp.html">Tema 3</a></li>
+								<li><a href="dasp.html">Tema 4</a></li>
+								<li><a href="dasp.html">Tema 5</a></li>
+							</ul>
+						</article>
+					</li>
+
+					<!--ITINERARIO-->
+					<li> 
+						<article class="asignatura">
+							<a href="ipell.html">Itinerario Personal Ⅱ</a>
+							<ul>
+								<li><a href="ipell.html">Unidad 1</a></li>
+								<li><a href="ipell.html">Unidad 2</a></li>
+								<li><a href="ipell.html">Unidad 3</a></li>
+							</ul>
+						</article>
+					</li>
+
+					<!--PYTHON-->
+					<li>
+						<article class="asignatura">
+							<a href="pp.html">Programación Python</a>
+							<ul>
+								<li><a href="pp.html">Tema 1</a></li>
+								<li><a href="pp.html">Tema 2</a></li>
+								<li><a href="pp.html">Tema 3</a></li>
+								<li><a href="pp.html">Tema 4</a></li>
+								<li><a href="pp.html">Tema 5</a></li>
+							</ul>
+						</article>
+					</li>
+
+					<!--SEGURIDAD INFORMATICA-->
+					<li>
+						<article class="asignatura">
+							<a href="si.html">Seguridad Informática</a>
+							<ul>
+								<li><a href="si.html">Tema 0</a></li>
+								<li><a href="si.html">Tema 1</a></li>
+								<li><a href="si.html">Tema 2</a></li>
+								<li><a href="si.html">Tema 3</a></li>
+								<li><a href="si.html">Tema 4</a></li>
+								<li><a href="si.html">Tema 5</a></li>
+							</ul>
+						</article>
+					</li>
+
+					<!--SERVICIOS EN RED-->
+					<li>
+						<article class="asignatura">
+							<a href="sr.html">Servicios en red</a>
+							<ul>
+								<li><a href="sr.html">Cisco</a></li>
+								<li><a href="sr.html">Linux</a></li>
+							</ul>
+						</article>
+					</li>
+				</ul>
+			</section>
+		</nav>
+
+		<div id="indice">
+			<h1>Índice</h1>
+			<hr>
+			<h2>Tema 1. Windows Server</h2>
+			<ol type="1">
+				<li class="lista"><a href="#1a">Ediciones WServer</a></li>
+				<li class="lista"><a href="#1b">Roles</a></li>
+				<li class="lista"><a href="#1c">Características</a></li>
+				<li class="lista"><a href="#1d">Servidor Core</a></li>
+				<li class="lista"><a href="#1e">Consolas</a></li>
+			</ol>
+			<h2>Tema 2. Active Directory</h2>
+			<ol type="1">
+				<li class="lista"><a href="#2a">Objetivo</a></li>
+				<li class="lista"><a href="#2b">Componentes de AD</a></li>
+				<li class="lista"><a href="#2c">FSMO</a></li>
+				<li class="lista"><a href="#2d">Papelera Reciclaje</a></li>
+			</ol>
+			<h2>Tema 3. Administración AD</h2>
+			<ol type="1">
+				<li class="lista"><a href="#3a">Consolas</a></li>
+				<li class="lista"><a href="#3b">Cuentas Usuario</a></li>
+				<li class="lista"><a href="#3c">Grupos</a></li>
+				<li class="lista"><a href="#3d">Cuentas Máquina</a></li>
+				<li class="lista"><a href="#3e">Delegación</a></li>
+				<li class="lista"><a href="#3f">PowerShell</a></li>
+			</ol>
+			<h2>Tema 4. DHCP</h2>
+			<ol type="1">
+				<li class="lista"><a href="#4a">Ventajas</a></li>
+				<li class="lista"><a href="#4b">Asignación IP</a></li>
+				<li class="lista"><a href="#4c">Configuración</a></li>
+			</ol>
+			<h2>Tema 5. DNS</h2>
+			<ol type="1">
+				<li class="lista"><a href="#5a">Servicio DNS</a></li>
+				<li class="lista"><a href="#5b">Registros</a></li>
+				<li class="lista"><a href="#5c">Consultas</a></li>
+				<li class="lista"><a href="#5d">Zonas</a></li>
+				<li class="lista"><a href="#5e">Comandos</a></li>
+			</ol>
+			<h2>Tema 6. Archivos</h2>
+			<ol type="1">
+				<li class="lista"><a href="#6a">Permisos NTFS</a></li>
+				<li class="lista"><a href="#6b">Recursos Compartidos</a></li>
+				<li class="lista"><a href="#6c">Instantáneas</a></li>
+				<li class="lista"><a href="#6d">Impresoras</a></li>
+			</ol>
+			<h2>Tema 7. GPO</h2>
+			<ol type="1">
+				<li class="lista"><a href="#7a">Características</a></li>
+				<li class="lista"><a href="#7b">Almacenamiento</a></li>
+				<li class="lista"><a href="#7c">Implementación</a></li>
+				<li class="lista"><a href="#7d">Seguridad</a></li>
+			</ol>
+		</div>
+
+		<section class="contenido">
+			<div class="section-title"><h1>Tema 1. Windows Server</h1></div>
+
+			<article class="articulo">
+				<h2><a name="1a"><span>Ediciones WServer</span></a></h2>
+				<ul>
+					<li><strong>Standard</strong>: Todos los roles, hasta 4TB RAM y 64 núcleos. Ideal para pymes.</li>
+					<li><strong>Datacenter</strong>: Hasta 4TB RAM y 640 núcleos. Máquinas virtuales ilimitadas. Grandes empresas.</li>
+					<li><strong>Foundation</strong>: Máx 15 usuarios. Solo DHCP, DNS y servidor de ficheros. Grupo de trabajo.</li>
+					<li><strong>Essential</strong>: AD limitado a 1 DC. Hasta 25 usuarios y 50 máquinas. 64GB RAM.</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="1b"><span>Roles</span></a></h2>
+				<p>Servicios que aportan funciones suplementarias a los clientes:</p>
+				<ul>
+					<li><strong>AD DS</strong>: Active Directory Domain Service - autenticación de cuentas</li>
+					<li><strong>AD CS</strong>: Certificate Service - certificados digitales</li>
+					<li><strong>DHCP</strong>: Distribución de configuraciones de red</li>
+					<li><strong>DNS</strong>: Resolución de nombres</li>
+					<li><strong>Impresión</strong>: Impresoras en red y grupos de impresión</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="1c"><span>Características</span></a></h2>
+				<p>Funcionalidades extra para configuración del servidor:</p>
+				<ul>
+					<li><strong>Backup</strong>: Copias de seguridad del servidor</li>
+					<li><strong>Clúster</strong>: Servidores funcionan conjuntamente para alta disponibilidad</li>
+					<li><strong>Balanceo de carga</strong>: Distribuir tráfico entre servidores</li>
+					<li><strong>Interfaz gráfica</strong>: GUI para gestión</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="1d"><span>Servidor Core</span></a></h2>
+				<p>Instalación sin interfaz gráfica, solo comandos (PowerShell). Menos actualizaciones y recursos. La GUI se puede instalar como característica.</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="1e"><span>Consolas</span></a></h2>
+				<p>Permiten gestionar, administrar y configurar los servicios:</p>
+				<ul>
+					<li><strong>Server Manager</strong>: Añadir/quitar roles, gestionar servidores</li>
+					<li><strong>Usuarios y Equipos AD</strong></li>
+					<li><strong>DNS</strong></li>
+					<li><strong>DHCP</strong></li>
+				</ul>
+			</article>
+		</section>
+
+		<section class="contenido">
+			<div class="section-title"><h1>Tema 2. Active Directory</h1></div>
+
+			<article class="articulo">
+				<h2><a name="2a"><span>Objetivo</span></a></h2>
+				<p>AD abarca cuentas para la <strong>autentificación</strong> de equipos y usuarios. Facilita la gestión, administración y configuraciones masivas. Un usuario de dominio puede validarse en cualquier máquina del dominio con permiso.</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="2b"><span>Componentes de AD</span></a></h2>
+				<h3>Físicos</h3>
+				<ul>
+					<li><strong>DC</strong> (Controlador de dominio): Servidor con AD DS. Al menos 1 por dominio.</li>
+					<li><strong>BBDD y SYSVOL</strong>: ntds.dit (base de datos), SYSVOL (políticas de grupo)</li>
+					<li><strong>GC</strong> (Catálogo Global): Búsquedas rápidas en el bosque</li>
+				</ul>
+				<h3>Lógicos</h3>
+				<ul>
+					<li><strong>Bosque</strong>: Contenedor de mayor rango</li>
+					<li><strong>Árbol de dominio</strong>: Espacio de nombres DNS contiguo</li>
+					<li><strong>Dominio</strong>: Límite administrativo para usuarios y equipos</li>
+					<li><strong>OU</strong> (Unidad Organizativa): Contenedor para delegación y GPOs</li>
+				</ul>
+				<h3>Particiones de BBDD</h3>
+				<ul>
+					<li>Configuración: topología del AD</li>
+					<li>Esquema: atributos y clases</li>
+					<li>Dominio: objetos del dominio</li>
+					<li>DNS: zonas y registros DNS</li>
+				</ul>
+				<img src="Imagenes/Pasted image 20251104130747.png" alt="Componentes AD">
+			</article>
+
+			<article class="articulo">
+				<h2><a name="2c"><span>Maestros de Operación FSMO</span></a></h2>
+				<p>5 roles en un bosque de AD:</p>
+				<ul>
+					<li><strong>Maestro de Esquema</strong>: 1 por bosque, permisos de escritura del esquema</li>
+					<li><strong>Maestro de Nomenclatura</strong>: 1 por bosque, añadir/eliminar dominios</li>
+					<li><strong>Maestro RID</strong>: 1 por dominio, asigna bloques de 500 SID</li>
+					<li><strong>Maestro de Infraestructura</strong>: 1 por dominio, vigila objetos ajenos</li>
+					<li><strong>Maestro PDC</strong>: 1 por dominio, sincronización de reloj y contraseñas</li>
+				</ul>
+				<p>Comando: <code>netdom query fsmo</code></p>
+				<img src="Imagenes/Pasted image 20251112085544.png" alt="FSMO">
+			</article>
+
+			<article class="articulo">
+				<h2><a name="2d"><span>Papelera de Reciclaje</span></a></h2>
+				<p>Deshabilitada por defecto. Se activa desde el Centro de Administración de AD. Crea la carpeta "Deleted Objects" para recuperar eliminaciones accidentales. Una vez activada, permanente.</p>
+			</article>
+		</section>
+
+		<section class="contenido">
+			<div class="section-title"><h1>Tema 3. Administración de objetos de AD</h1></div>
+
+			<article class="articulo">
+				<h2><a name="3a"><span>Consolas</span></a></h2>
+				<ul>
+					<li><strong>Server Manager</strong>: Gestión general del servidor</li>
+					<li><strong>Usuarios y Equipos AD</strong>: Crear/eliminar/delegar objetos</li>
+					<li><strong>Sitios y Servicios AD</strong>: Replicación entre sitios</li>
+					<li><strong>Dominios y Confianzas</strong>: Relaciones de confianza</li>
+					<li><strong>Centro de Administración AD</strong>: Gestión avanzada, papelera, PSO</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="3b"><span>Administración de Cuentas de Usuario</span></a></h2>
+				<ul>
+					<li>Nombre único en el dominio/bosque</li>
+					<li>Atributos obligatorios: nombre y contraseña</li>
+					<li>Perfil móvil: Ruta <code>\\Servidor\PerfilUsuario\%username%</code></li>
+					<li>Miembro de grupos para asignar permisos</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="3c"><span>Administración de Grupos</span></a></h2>
+				<h3>Tipos</h3>
+				<ul>
+					<li><strong>Distribución</strong>: Sin SID, solo para correo</li>
+					<li><strong>Seguridad</strong>: Con SID, para permisos</li>
+				</ul>
+				<h3>Ámbitos</h3>
+				<ul>
+					<li><strong>Local</strong>: Solo en la máquina local</li>
+					<li><strong>Dominio Local (DL)</strong>: Permisos en el dominio</li>
+					<li><strong>Global</strong>: Miembros del mismo dominio, permisos en todo el bosque</li>
+					<li><strong>Universal</strong>: Miembros de cualquier dominio, se replica en GC</li>
+				</ul>
+				<h3>Estrategia IGDLA</h3>
+				<p>Identidades → Grupos Globales → Grupos Dominio Local → ACL</p>
+				<h3>Grupos por defecto</h3>
+				<ul>
+					<li><strong>Domain Admins</strong>: Administradores de dominio</li>
+					<li><strong>Server Operators</strong>: Administrar servidores</li>
+					<li><strong>Account Operators</strong>: Gestión de cuentas</li>
+					<li><strong>Backup Operators</strong>: Copias de seguridad</li>
+					<li><strong>Print Operators</strong>: Gestión de impresoras</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="3d"><span>Administración de Cuentas de Máquina</span></a></h2>
+				<ul>
+					<li>Se crean en Consola Usuarios y Equipos → Nuevo → Equipo</li>
+					<li>Al unir un equipo al dominio se crea la cuenta</li>
+					<li>Por defecto en carpeta Computers (no es OU, no admite GPOs)</li>
+					<li>Si un equipo está apagado &gt;30 días, se rompe el canal seguro</li>
+				</ul>
+				<h3>Canal Seguro</h3>
+				<p>Comprobación y reparación con PowerShell:</p>
+				<pre>Test-ComputerSecureChannel
+Reset-ComputerMachinePassword</pre>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="3e"><span>Delegación Administrativa</span></a></h2>
+				<p>Permite delegar permisos sobre OUs. Se aplica sobre la OU → Delegar Control. Se añade el grupo y se marcan tareas. La denegación tiene prioridad sobre permitir. Los explícitos sobre los heredados.</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="3f"><span>PowerShell</span></a></h2>
+				<pre># Usuarios
+New-ADUser -Name -Surname -GivenName -Path -Enabled
+Set-ADUser
+Remove-ADUser
+Get-ADUser
+
+# Grupos
+New-ADGroup -Name -GroupScope -GroupCategory -Path
+Set-ADGroup
+Remove-ADGroup
+
+# Equipos
+New-ADComputer -Name -Path
+Set-ADComputer
+Remove-ADComputer
+
+# OU
+New-ADOrganizationalUnit -Name -Path
+Set-ADOrganizationalUnit
+Remove-ADOrganizationalUnit</pre>
+			</article>
+		</section>
+
+		<section class="contenido">
+			<div class="section-title"><h1>Tema 4. Servicio DHCP</h1></div>
+
+			<article class="articulo">
+				<h2><a name="4a"><span>Ventajas</span></a></h2>
+				<ul>
+					<li>Automatiza configuración de red</li>
+					<li>Reduce errores, evita IP duplicadas</li>
+					<li>Útil para usuarios itinerantes</li>
+					<li>Facilita monitorización</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="4b"><span>Asignación de IP dinámica</span></a></h2>
+				<p>Intercambio de 4 paquetes:</p>
+				<ol>
+					<li><strong>DHCPDISCOVER</strong>: Cliente busca servidor DHCP (broadcast)</li>
+					<li><strong>DHCPOFFER</strong>: Servidor ofrece configuración</li>
+					<li><strong>DHCPREQUEST</strong>: Cliente acepta la oferta</li>
+					<li><strong>DHCPACK</strong>: Servidor confirma y registra</li>
+				</ol>
+				<img src="Imagenes/Pasted image 20251125084255.png" alt="DHCP">
+			</article>
+
+			<article class="articulo">
+				<h2><a name="4c"><span>Configuración de DHCP</span></a></h2>
+				<ul>
+					<li><strong>Ámbito (scope)</strong>: Rango de IPs a asignar</li>
+					<li><strong>Exclusiones</strong>: IPs del ámbito que no se asignan</li>
+					<li><strong>Reservas</strong>: IP fija por MAC (impresoras, teléfonos IP)</li>
+					<li><strong>Filtros</strong>: Permitir/Denegar equipos por MAC</li>
+				</ul>
+				<p>Base de datos: <code>C:\Windows\System32\dhcp\dhcp.mdb</code>. Copia automática cada hora en backup.</p>
+			</article>
+		</section>
+
+		<section class="contenido">
+			<div class="section-title"><h1>Tema 5. Implementación de DNS</h1></div>
+
+			<article class="articulo">
+				<h2><a name="5a"><span>Servicio DNS</span></a></h2>
+				<p>Resuelve nombres a IP y viceversa. <strong>FQDN</strong> = Hostname + sufijo DNS (máx 256 caracteres). Estructura jerárquica: raíz (.) → TLD (.com, .es) → dominio → subdominios → host.</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="5b"><span>Tipos de Registros</span></a></h2>
+				<ul>
+					<li><strong>A</strong>: Nombre → IPv4</li>
+					<li><strong>AAAA</strong>: Nombre → IPv6</li>
+					<li><strong>PTR</strong>: IP → Nombre</li>
+					<li><strong>CNAME</strong>: Alias</li>
+					<li><strong>SOA</strong>: Información general de la zona (1 por zona)</li>
+					<li><strong>NS</strong>: Servidores de nombres</li>
+					<li><strong>MX</strong>: Servidores de correo</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="5c"><span>Consultas DNS</span></a></h2>
+				<ul>
+					<li><strong>Iterativas</strong>: El servidor consulta a otros servidores paso a paso</li>
+					<li><strong>Recursivas</strong>: El servidor se encarga de toda la resolución mediante reenviador condicional</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="5d"><span>Zonas de DNS</span></a></h2>
+				<ul>
+					<li><strong>Directa</strong>: A (nombre → IP)</li>
+					<li><strong>Inversa</strong>: PTR (IP → nombre)</li>
+					<li><strong>Primaria</strong>: Lectura/escritura. 1 por zona</li>
+					<li><strong>Secundaria</strong>: Copia solo lectura</li>
+					<li><strong>Stub</strong>: Copia parcial (solo registros necesarios)</li>
+					<li><strong>AD Integrated</strong>: Integrada en AD, se replica automáticamente</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="5e"><span>Comandos de DNS</span></a></h2>
+				<pre>nslookup              # Buscar registros DNS
+ipconfig /flushdns    # Borrar caché DNS
+ipconfig /displaydns  # Mostrar caché DNS</pre>
+				<img src="Imagenes/Pasted image 20251124202933.png" alt="nslookup">
+				<img src="Imagenes/Pasted image 20251124203029.png" alt="nslookup resultado">
+			</article>
+		</section>
+
+		<section class="contenido">
+			<div class="section-title"><h1>Tema 6. Administración de Servidores de Archivos</h1></div>
+
+			<article class="articulo">
+				<h2><a name="6a"><span>Permisos NTFS</span></a></h2>
+				<h3>Estándar</h3>
+				<ul>
+					<li><strong>Control Total</strong>: Todo, incluyendo permisos y propiedad</li>
+					<li><strong>Modificar</strong>: Leer, escribir, eliminar, crear y ejecutar</li>
+					<li><strong>Leer y Ejecutar</strong>: Leer archivos y ejecutar programas</li>
+					<li><strong>Lectura</strong>: Leer archivos</li>
+					<li><strong>Escritura</strong>: Modificar y escribir</li>
+					<li><strong>Mostrar contenido</strong>: Ver contenido de carpeta</li>
+				</ul>
+				<h3>Avanzados</h3>
+				<ul>
+					<li>Atravesar carpeta/ejecutar archivo</li>
+					<li>Crear archivos/escribir datos</li>
+					<li>Eliminar subcarpetas y archivos</li>
+					<li>Cambiar permisos</li>
+					<li>Tomar posesión</li>
+				</ul>
+				<p>Herencia habilitada por defecto. Explícitos tienen prioridad sobre heredados.</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="6b"><span>Recursos Compartidos</span></a></h2>
+				<p>Acceso directo a recursos en servidor mediante ruta UNC: <code>\\SERVER\Share</code>. Se puede limitar acceso con permisos NTFS.</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="6c"><span>Instantáneas (Shadow Copies)</span></a></h2>
+				<p>Imágenes estáticas de archivos compartidos. Permiten restaurar versiones anteriores. Por defecto L-V 12:00 y 7:00. No son alternativa al backup (mismo disco).</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="6d"><span>Impresoras en Red</span></a></h2>
+				<p>Rol: Servicios de impresión y documentos. Los clientes envían trabajos al servidor. <strong>Grupo de impresión</strong>: Varias impresoras físicas como una lógica (balanceo). Mismo controlador y formato.</p>
+			</article>
+		</section>
+
+		<section class="contenido">
+			<div class="section-title"><h1>Tema 7. Directivas de Grupo (GPO)</h1></div>
+
+			<article class="articulo">
+				<h2><a name="7a"><span>Características</span></a></h2>
+				<p>Gestión masiva, rápida y centralizada desde el DC.</p>
+				<ul>
+					<li>Configuración de <strong>usuario</strong> (persigue al usuario) o <strong>equipo</strong> (afecta a la máquina)</li>
+					<li><strong>Directivas</strong>: Configuración de software, Windows, plantillas administrativas</li>
+					<li><strong>Preferencias</strong>: No obligatorias, usuario puede modificarlas. No se eliminan automáticamente</li>
+					<li>Se vinculan a contenedores (OU mínimo)</li>
+				</ul>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="7b"><span>Almacenamiento de GPOs</span></a></h2>
+				<ul>
+					<li><strong>GPT</strong> (Group Policy Template): Parámetros de seguridad, scripts. Extensiones .adm/.admx. En SYSVOL</li>
+					<li><strong>GPC</strong> (Group Policy Container): En BBDD de AD. Control de versiones (gpt.ini). Se comprueba cada 90-120 min</li>
+				</ul>
+				<h3>Almacén central</h3>
+				<p>Plantillas .admx en SYSVOL del DC: <code>C:\SYSVOL\{domain name}\Policies</code></p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="7c"><span>Implementación</span></a></h2>
+				<p><strong>Delegación</strong>: Domain Admins, Enterprise Admins, Creator Owner, System. Usuarios autenticados tienen lectura/aplicación.</p>
+				<p><strong>Procesamiento</strong>: Local → Site → Domain → OU. Refresco cada 90-120 min (seguridad cada 16h). Comando: <code>gpupdate /force</code>.</p>
+				<p><strong>Directivas predeterminadas</strong>: Default Domain Policy (raíz del dominio) y Default Domain Controllers Policy (OU Domain Controllers).</p>
+			</article>
+
+			<article class="articulo">
+				<h2><a name="7d"><span>Securización con GPO</span></a></h2>
+				<ul>
+					<li>Políticas de contraseña (histórico, vigencia, longitud, complejidad)</li>
+					<li>Políticas de bloqueo (intentos y tiempos)</li>
+					<li>Kerberos (sincronización horaria)</li>
+					<li>Directivas de auditoría</li>
+					<li>Restricciones de software (reglas por hash, ruta, certificado, zona)</li>
+					<li>AppLocker: Control avanzado de aplicaciones</li>
+				</ul>
+			</article>
+		</section>
+
+		<footer>
+			<p>TFG de Grado Medio&emsp;&emsp;Lucía Lupiáñez&emsp;&emsp;2025-2026</p>
+			<p>⚠ Esta web no forma parte oficial de Academia Digitech, es el proyecto de un alumno. ⚠</p>
+		</footer>
+	</body>
+</html>
