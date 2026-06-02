@@ -1,5 +1,4 @@
-h1,h2,h3,h4,h5,h6,p,a,div,strong,i,ul,li,ol,pre
-{font-family:Bahnschrift,'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif}
+h1,h2,h3,h4,h5,h6,p,a,div,strong,i,ul,li,ol,pre,table,th,td{font-family:Bahnschrift,'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif}
 h1,h2,h3,h4,h5,h6{font-weight:bolder}
 p,a{font-weight:lighter}
 pre{background-color:#1a1b2e;color:#ffffff;padding:12px;border-radius:8px;overflow-x:auto;margin:1% 0;white-space:pre-wrap;border-left:3px solid #5252d4}

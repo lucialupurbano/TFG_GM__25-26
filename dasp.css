@@ -1,5 +1,4 @@
-h1,h2,h3,h4,h5,h6,p,a,div,strong,i,ul,li,ol
-{font-family:Bahnschrift,'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;}
+h1,h2,h3,h4,h5,h6,p,a,div,strong,i,ul,li,ol,table,th,td{font-family:Bahnschrift,'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;}
 h1,h2,h3,h4,h5,h6{font-weight:bolder;}
 p,a{font-weight:lighter;}
 #hea ul li a:hover{background-color:#ede0c0;}

@@ -1,6 +1,5 @@
 *{padding:0;margin:0;box-sizing:border-box;}
-h1,h2,h3,h4,h5,h6,p,a,div,button,footer,input,strong,i,ul,li,ol
-{font-family:Bahnschrift,'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;}
+h1,h2,h3,h4,h5,h6,p,a,div,button,footer,input,strong,i,ul,li,ol,table,th,td{font-family:Bahnschrift,'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;}
 body{background-color:#1a1b2e;}
 a{color:#100E17;font-style:italic;text-decoration:none;transition:color 0.2s;}
 a:hover{color:#555555}
