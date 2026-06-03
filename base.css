@@ -208,7 +208,8 @@ p,a{font-weight:lighter;}
 
 
 /* MOVIL */
-@media screen and (max-width:768px){
+@media screen and (max-width:768px)
+{
     #logo
         {
             display:flex;
